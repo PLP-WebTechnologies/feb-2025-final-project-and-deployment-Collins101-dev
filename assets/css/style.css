@@ -143,3 +143,41 @@ nav li a.active {
     color: #00bfae;
     border-bottom: 2px solid #00bfae;
 }
+
+/* Default Light Mode Styles */
+body {
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: #0077b6;
+}
+
+button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #f3f3f3;
+}
+
+header.dark-mode {
+    background-color: #1c1c1c;
+}
+
+button.dark-mode {
+    background-color: #333;
+}
+
+button.dark-mode:hover {
+    background-color: #444;
+}
